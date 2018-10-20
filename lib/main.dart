@@ -65,13 +65,59 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            ListTile(
+              title: Text("おでかけ"),
+              onTap: () {
+              }
+            ),
+            ListTile(
+              title: Text("イベントカレンダー"),
+              onTap: () {
+              }
+            ),
+            ListTile(
+              title: Text("グルメ"),
+              onTap: () {
+              }
+            ),
+            ListTile(
+              title: Text("くらし"),
+              onTap: () {
+              }
+            ),
+            ListTile(
+              title: Text("まち"),
+              onTap: () {
+              }
+            ),
+            ListTile(
+              title: Text("ワタシの本音"),
+              onTap: () {
+              }
+            ),
+            ListTile(
+              title: Text("プレゼント"),
+              onTap: () {
+              }
+            ),
+            ListTile(
+              title: Text("ツアー&カルチャー"),
+              onTap: () {
+              }
+            ),
+          ],
+        ),
+      ),
       appBar: AppBar(
         title: Container(
             margin: EdgeInsets.all(8.0),
-            alignment: Alignment.center,
             child: Image.network('https://home.livingfk.com/common/css/img/living_logo.png?20171225')
         ),
         backgroundColor: Colors.white,
+        iconTheme: IconThemeData(color: Color(0x89000000)),
         elevation: 2.0,
       ),
       body: ListView(
