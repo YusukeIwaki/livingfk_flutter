@@ -1,8 +1,5 @@
-# living_fukuoka
+# livingfk_flutter
 
-Living Fukuoka
+https://home.livingfk.com/ を勝手にFlutterでトレースして遊ぶためだけのリポジトリ。
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+![test](https://user-images.githubusercontent.com/11763113/47267930-30bf2500-d585-11e8-953f-a8ef7b07277e.gif)
